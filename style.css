@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.3fr 0.2fr 0.3fr;
+    grid-template-rows: 3fr 3fr;
+    grid-template-areas: 
+    "leftsidebar1 container1 rightsidebar"
+    "leftsidebar2 container2"
+    ;
+}
+#leftsidebar{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container1{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#leftsidebar2{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.container2{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    siz
+}
+
+
+
